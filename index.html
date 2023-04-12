@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Shippuden</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/90b57183e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/naruto-11.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#about">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Characters</a></li>
+                    <li><a href="#">Techniques</a></li>
+                    <li><a href="#">Akatsuki</a></li>
+                    <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hokage of Konoha</p>
+                <h1>Hi, I'm <span> Naruto</span> <br> Shipudden</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/image-naruto-with-coat-narutopedia-fandom-12.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Naruto</h1>
+                    <p>Наруто Удзумаки хочет стать лучшим ниндзя в деревне и 
+                        движется к своей цели. Но когда появилась опасность в лице
+                         таинственной организации «Акацки», Наруто понимает, что 
+                         должен 
+                        стать сильнее, и покидает свою деревню ради тренировок.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>7st</span> <br> Hokage of Konoha</li>
+                                <li><span>Genin</span> <br>of 7th jokate</li>
+                                <li><span>Jinjuriki</span> <br> Nine Tells Fox</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Strongest</span> <br> Hokage of Konoha</li>
+                                <li><span>Member</span> <br>of 7th jokate</li>
+                                <li><span>Duttabayo</span> <br> Nine Tells Fox</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>7st</span> <br> Hokage of Konoha</li>
+                                <li><span>Genin</span> <br>of 7th jokate</li>
+                                <li><span>Jinjuriki</span> <br> Nine Tells Fox</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------Characters------------- -->
+<div id="characters">
+    <div class="container">
+        <h1 class="sub-title">Characters of Anime</h1>
+        <div class="characters-list">
+            <div>
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <h2>Clans</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ullam doloribus 
+                    velit quam unde! At cum mollitia necessitatibus illo odio!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa fa-times" aria-hidden="true"></i>
+                <h2>Akatsuki</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ullam doloribus 
+                    velit quam unde! At cum mollitia necessitatibus illo odio!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <h2>Others</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ullam doloribus 
+                    velit quam unde! At cum mollitia necessitatibus illo odio!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------Techniques------- -->
+<div id="techniques">
+    <div class="container">
+        <h1 class="sub-title">My Techniques</h1>
+        <div class="technique-list">
+            <div class="techniques">
+                <img src="./images/1.jpg">
+                <div class="layer">
+                    <h3>Rasen-Syuriken</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        amet ipsa doloribus sapiente.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="techniques">
+                <img src="./images/2.jpg">
+                <div class="layer">
+                    <h3>Rasengan</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        amet ipsa doloribus sapiente.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="techniques">
+                <img src="./images/3.jpg">
+                <div class="layer">
+                    <h3>Shadow-Clone</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        amet ipsa doloribus sapiente.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- --------Akatsuki----- -->
+<div id="akatsuki">
+    <div class="container">
+        <div class="row">
+            <div class="akatsuki-left">
+                <h1 class="sub-title">Akatsiki</h1>
+                <p><i class="fa fa-paper-plane" aria-hidden="true"></i> akatsuki@mail.com</p>
+                <p><i class="fa fa-phone-square" aria-hidden="true"></i> +374 94 34 34 82</p>
+                <div class="akatsuki-icons">
+                    <a href="#"><i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-certificate" aria-hidden="true"></i></i></a>
+                    <a href="#"><i class="fa fa-cubes" aria-hidden="true"></i>></i></a>
+                    <a href="#"><i class="fa fa-flag" aria-hidden="true"></i></i></a>
+                </div>
+                <a href="images/ak.jpg" download class="btn btn2">See Secrets</a>
+            </div>
+            <div class="akatsuki-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Member's Name" required>
+                    <input type="email" name="email" placeholder="Member's Email" required>
+                    <textarea name="Message"rows="6" placeholder="Member Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Naruto. Made with <i class="fa fa-heart" aria-hidden="true"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+
+
+<!-- https://www.youtube.com/watch?v=0YFrGy_mzjY -->
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
